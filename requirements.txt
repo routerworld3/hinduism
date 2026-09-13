@@ -1,0 +1,6 @@
+# Pinned below 2.0 deliberately. MkDocs 2.0 is a backward-incompatible rewrite
+# (plugin system removed, theme overrides broken, no migration path), and
+# Material for MkDocs 9.x targets the 1.x line. Leaving these unpinned would
+# let a future CI run pick up 2.0 and break the build.
+mkdocs>=1.6,<2
+mkdocs-material>=9.5,<10
