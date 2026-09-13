@@ -1,0 +1,4 @@
+.md-grid { max-width: 1100px; }
+.md-typeset { line-height: 1.7; }
+.md-typeset h2 { margin-top: 2.2em; padding-bottom: .3em; border-bottom: 1px solid var(--md-default-fg-color--lightest); }
+.md-typeset .mermaid { display: flex; justify-content: center; margin: 1.6em 0; }
