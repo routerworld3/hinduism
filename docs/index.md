@@ -1,91 +1,130 @@
 ---
-layout: default
 title: Home
-description: Explore Hindu texts, Vedanta schools, major teachers, devotional traditions, sacred stories, and cosmology.
+description: Hindu sacred texts, Vedānta schools, major teachers, devotional traditions, and cosmology.
 ---
 
-<div class="hero">
-  <h1>Hindu Philosophy and Traditions</h1>
-  <p>
-    A structured collection introducing Hindu sacred texts, major Vedānta schools,
-    influential teachers, devotional traditions, cosmology, and modern spiritual movements.
-  </p>
-</div>
+# Hindu philosophy and traditions
 
-## Recommended starting point
+A structured introduction to Hindu sacred texts, the major Vedānta schools, the
+teachers who shaped them, later devotional movements, and the cosmological
+stories that carry the same ideas in narrative form.
 
-<div class="reading-path">
-  <ol>
-    <li><a href="{{ '/hindu-text-timeline/' | relative_url }}">Begin with the timeline of Hindu texts</a>.</li>
-    <li><a href="{{ '/monotheism-and-divine-forms/' | relative_url }}">Understand one Supreme Reality and many divine forms</a>.</li>
-    <li><a href="{{ '/hindu-philosophy-schools/' | relative_url }}">Compare the major Vedānta schools</a>.</li>
-    <li>Continue with the teachers, traditions, and cosmology sections below.</li>
-  </ol>
-</div>
+The pages discuss traditions that reach different theological conclusions. They
+are presented side by side rather than flattened into a single doctrine.
+
+## Where to start
+
+If you are new to the material, read in this order. Each page assumes the one
+before it.
+
+1. [Chronological timeline of Hindu texts](hindu-text-timeline.md) — what the
+   sources are and when they appeared.
+2. [Monotheism, polytheism, and divine forms](monotheism-and-divine-forms.md) —
+   the question most newcomers arrive with.
+3. [Major Hindu philosophy schools](hindu-philosophy-schools.md) — how those
+   sources get interpreted, and where the schools diverge.
+
+From there the teacher pages, the modern traditions, and the stories can be read
+in any order.
 
 ## Foundations
 
-<div class="card-grid">
-  <a class="card" href="{{ '/hindu-text-timeline/' | relative_url }}">
-    <strong>Chronological Timeline of Hindu Texts</strong>
-    <span>Vedas, Upaniṣads, epics, Purāṇas, darśanas, Tantras, and Āgamas in historical sequence.</span>
-  </a>
+<div class="grid cards" markdown>
 
-  <a class="card" href="{{ '/monotheism-and-divine-forms/' | relative_url }}">
-    <strong>Monotheism, Polytheism, and Divine Forms</strong>
-    <span>Why Hinduism can speak of one Supreme Reality while worshipping many names and forms.</span>
-  </a>
+-   __Chronological timeline of Hindu texts__
 
-  <a class="card" href="{{ '/hindu-philosophy-schools/' | relative_url }}">
-    <strong>Major Hindu Philosophy Schools</strong>
-    <span>A comparison of Advaita, Viśiṣṭādvaita, Dvaita, Bhedābheda, Śuddhādvaita, and related paths.</span>
-  </a>
+    ---
+
+    Vedas, Upaniṣads, epics, Purāṇas, darśanas, Tantras, and Āgamas in
+    historical sequence, with a summary by text type.
+
+    [Read the timeline](hindu-text-timeline.md)
+
+-   __Monotheism, polytheism, and divine forms__
+
+    ---
+
+    Why Hinduism can speak of one Supreme Reality while worshipping many names
+    and forms. Includes ten classical analogies — gold and ornaments, ocean and
+    waves, clay and pots.
+
+    [Read about divine forms](monotheism-and-divine-forms.md)
+
 </div>
 
-## Vedānta teachers
+## Schools of Vedānta
 
-<div class="card-grid">
-  <a class="card" href="{{ '/adi-shankaracharya/' | relative_url }}">
-    <strong>Ādi Śaṅkarācārya and Advaita Vedānta</strong>
-    <span>Historical context, non-dualism, knowledge, devotional works, and Śaṅkara’s lasting influence.</span>
-  </a>
+Start with the comparison page, then read the two teachers whose arguments
+define the first half of that table.
 
-  <a class="card" href="{{ '/ramanujacharya/' | relative_url }}">
-    <strong>Rāmānujācārya and Viśiṣṭādvaita</strong>
-    <span>Qualified non-dualism, the reality of souls and the world, bhakti, surrender, and Śrī Vaiṣṇava thought.</span>
-  </a>
+<div class="grid cards" markdown>
+
+-   __Major Hindu philosophy schools__
+
+    ---
+
+    Advaita, Viśiṣṭādvaita, Dvaita, Bhedābheda, Śuddhādvaita, and Achintya
+    Bhedābheda, compared on Brahman, soul, world, and liberation.
+
+    [Compare the schools](hindu-philosophy-schools.md)
+
+-   __Ādi Śaṅkarācārya and Advaita Vedānta__
+
+    ---
+
+    Why non-dualism rose when it did, what Śaṅkara took from Buddhism and what
+    he rejected, and the paradox of a non-dualist writing devotional hymns.
+
+    [Read about Śaṅkara](adi-shankaracharya.md)
+
+-   __Rāmānujācārya and Viśiṣṭādvaita__
+
+    ---
+
+    Qualified non-dualism as a response to Advaita — the reality of souls and
+    the world, the critique of māyā, and the merging of Sanskrit Vedānta with
+    Tamil bhakti.
+
+    [Read about Rāmānuja](ramanujacharya.md)
+
 </div>
 
-## Devotional and modern traditions
+## Modern traditions
 
-<div class="card-grid">
-  <a class="card" href="{{ '/swaminarayan-philosophy/' | relative_url }}">
-    <strong>Swaminarayan Philosophy</strong>
-    <span>Akshar–Purushottam theology, five eternal realities, liberation, discipline, and institutional context.</span>
-  </a>
+<div class="grid cards" markdown>
 
-  <a class="card" href="{{ '/dada-bhagwan-akram-vignan/' | relative_url }}">
-    <strong>Dada Bhagwan and Akram Vignan</strong>
-    <span>Pure Soul awareness, karma, non-doership, Jain foundations, Vedāntic parallels, and distinctive teachings.</span>
-  </a>
+-   __Swaminarayan philosophy__
+
+    ---
+
+    Akshar–Purushottam theology, the five eternal realities, ekantik dharma,
+    and the modern debate over spiritual versus institutional equality.
+
+    [Read about the Swaminarayan tradition](swaminarayan-philosophy.md)
+
+-   __Dada Bhagwan and Akram Vignan__
+
+    ---
+
+    Pure Soul awareness, charge and discharge karma, vyavasthit, the five
+    agnas, and how the system relates to its Jain foundations.
+
+    [Read about Akram Vignan](dada-bhagwan-akram-vignan.md)
+
 </div>
 
-## Cosmology and sacred stories
+## Stories and cosmology
 
-<div class="card-grid">
-  <a class="card" href="{{ '/brahma-vishnu-shiva-stories/' | relative_url }}">
-    <strong>Brahmā, Viṣṇu, and Śiva</strong>
-    <span>The infinite pillar of light and Brahmā’s search for the source of the cosmic lotus.</span>
-  </a>
+<div class="grid cards" markdown>
 
-  <a class="card" href="{{ '/multiverse-and-hindu-cosmology/' | relative_url }}">
-    <strong>Multiverse and Hindu Cosmology</strong>
-    <span>Multiple universes, lokas, cyclic time, Jain cosmology, and comparisons with modern scientific ideas.</span>
-  </a>
+-   __Brahmā, Viṣṇu, and Śiva__
+
+    ---
+
+    The infinite pillar of light and Brahmā's search for the source of the
+    cosmic lotus — the same philosophy the other pages argue, told as narrative.
+
+    [Read the stories](brahma-vishnu-shiva-stories.md)
+
 </div>
-
----
-
-### Reading note
-
-These pages discuss multiple traditions with different theological conclusions. The site presents those viewpoints side by side rather than treating every school as teaching the same doctrine.
+presents those viewpoints side by side rather than treating every school as teaching the same doctrine.
