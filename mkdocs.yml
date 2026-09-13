@@ -1,49 +1,111 @@
-site_name: Religion
-site_url: https://<user>.github.io/religion/
-repo_url: https://github.com/<user>/religion
+# ---------------------------------------------------------------------------
+# MkDocs Material configuration
+# Docs: https://squidfunk.github.io/mkdocs-material/
+#
+# TODO before first deploy: replace <user> in the three URLs below.
+# ---------------------------------------------------------------------------
+
+site_name: hinduism
+site_description: Notes, references and diagrams
+site_url: https://<user>.github.io/hinduism/
+repo_url: https://github.com/<user>/hinduism
+repo_name: <user>/hinduism
 edit_uri: edit/main/docs/
+
+docs_dir: docs
+site_dir: site
 
 theme:
   name: material
+  language: en
   features:
-    - navigation.instant
-    - navigation.sections
-    - navigation.top
+    - navigation.instant        # SPA-style page loads
+    - navigation.instant.progress
+    - navigation.tracking       # URL updates with the active anchor
+    - navigation.sections       # top-level folders render as sections
+    - navigation.top            # back-to-top button
+    - navigation.footer         # prev/next links
     - toc.follow
     - search.suggest
+    - search.highlight
     - content.code.copy
-    - content.action.edit
+    - content.action.edit       # "Edit this page" -> GitHub
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: black
       accent: indigo
-      toggle: { icon: material/weather-night, name: Dark mode }
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: black
       accent: indigo
-      toggle: { icon: material/weather-sunny, name: Light mode }
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
   font:
     text: Inter
     code: JetBrains Mono
+  icon:
+    repo: fontawesome/brands/github
+
+extra_css:
+  - stylesheets/extra.css
 
 markdown_extensions:
+  - abbr
   - admonition
   - attr_list
+  - def_list
+  - footnotes
   - md_in_html
   - tables
-  - footnotes
-  - toc: { permalink: true }
+  - toc:
+      permalink: true
+      toc_depth: 3
   - pymdownx.details
   - pymdownx.inlinehilite
-  - pymdownx.tasklist: { custom_checkbox: true }
-  - pymdownx.highlight: { anchor_linenums: true }
+  - pymdownx.smartsymbols
+  - pymdownx.snippets
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  # This block is what makes ```mermaid fences render as diagrams.
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
 
 plugins:
   - search
+
+# ---------------------------------------------------------------------------
+# Navigation
+#
+# Left commented out on purpose: with no `nav:` block MkDocs builds the menu
+# automatically from the folder tree (alphabetical by filename, titles taken
+# from each file's first H1). Uncomment and edit once your real pages exist
+# if you want explicit ordering.
+#
+# nav:
+#   - Home: index.md
+#   - Notes:
+#       - notes/index.md
+#   - Diagrams:
+#       - diagrams/index.md
+#       - diagrams/mermaid-test.md
+#   - Reference:
+#       - reference/index.md
+# ---------------------------------------------------------------------------
+
