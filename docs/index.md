@@ -54,8 +54,8 @@ in any order.
 
 ## Schools of Vedānta
 
-Start with the comparison page, then read the two teachers whose arguments
-define the first half of that table.
+Start with the comparison page, then explore the teachers and traditions below
+in historical order.
 
 <div class="grid cards" markdown>
 
@@ -86,6 +86,24 @@ define the first half of that table.
     Tamil bhakti.
 
     [Read about Rāmānuja](ramanujacharya.md)
+
+-   __Madhvacharya and Dvaita Vedānta__
+
+    ---
+
+    God and souls as distinct realities, the five differences, devotion to
+    Vishnu, and the Udupi tradition.
+
+    [Read about Madhva](madhavcharya.md)
+
+-   __Chaitanya Mahaprabhu, Achintya Bhedābheda, and ISKCON__
+
+    ---
+
+    Simultaneous oneness and difference, Radha–Krishna devotion, the connection
+    to Madhva, and ISKCON’s place in the wider Gaudiya tradition.
+
+    [Read about Chaitanya and ISKCON](chaitanya-mahaprabhu-and-iskcon.md)
 
 </div>
 
@@ -127,4 +145,3 @@ define the first half of that table.
     [Read the stories](brahma-vishnu-shiva-stories.md)
 
 </div>
-presents those viewpoints side by side rather than treating every school as teaching the same doctrine.
