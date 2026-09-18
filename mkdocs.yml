@@ -2,13 +2,12 @@
 # MkDocs Material configuration
 # Docs: https://squidfunk.github.io/mkdocs-material/
 #
-# TODO before first deploy: replace <user> in the three URLs below.
 # ---------------------------------------------------------------------------
 
 site_name: hinduism
 site_description: Notes, references and diagrams
 site_url: https://routerworld3.github.io/hinduism/
-repo_url: https://github.com/<user>/hinduism
+repo_url: https://github.com/routerworld3/hinduism
 repo_name: routerworld3/hinduism
 edit_uri: edit/main/docs/
 
@@ -93,19 +92,23 @@ plugins:
 # ---------------------------------------------------------------------------
 # Navigation
 #
-# Left commented out on purpose: with no `nav:` block MkDocs builds the menu
-# automatically from the folder tree (alphabetical by filename, titles taken
-# from each file's first H1). Uncomment and edit once your real pages exist
-# if you want explicit ordering.
-#
-# nav:
-#   - Home: index.md
-#   - Notes:
-#       - notes/index.md
-#   - Diagrams:
-#       - diagrams/index.md
-#       - diagrams/mermaid-test.md
-#   - Reference:
-#       - reference/index.md
+# Keep this order aligned with the sections and cards in docs/index.md.
+# Paths are relative to docs_dir; do not prefix them with docs/.
 # ---------------------------------------------------------------------------
 
+nav:
+  - Home: index.md
+  - Foundations:
+      - Timeline of Hindu texts: hindu-text-timeline.md
+      - Monotheism and divine forms: monotheism-and-divine-forms.md
+  - Schools of Vedānta:
+      - Compare the schools: hindu-philosophy-schools.md
+      - Shankaracharya — Advaita: adi-shankaracharya.md
+      - Ramanujacharya — Viśiṣṭādvaita: ramanujacharya.md
+      - Madhvacharya — Dvaita: madhavcharya.md
+      - Chaitanya — Achintya Bhedābheda and ISKCON: chaitanya-mahaprabhu-and-iskcon.md
+  - Modern traditions:
+      - Swaminarayan philosophy: swaminarayan-philosophy.md
+      - Dada Bhagwan and Akram Vignan: dada-bhagwan-akram-vignan.md
+  - Stories and cosmology:
+      - Brahmā, Viṣṇu, and Śiva: brahma-vishnu-shiva-stories.md
