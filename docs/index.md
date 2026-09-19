@@ -107,6 +107,24 @@ in historical order.
 
 </div>
 
+## Bhakti and Sant traditions
+
+Explore Kabir-inspired devotion and the Gujarati RamKabir tradition alongside
+the Vedānta schools above.
+
+<div class="grid cards" markdown>
+
+-   __Kabir Panth and the RamKabir Parampara of Jivanji Maharaj__
+
+    ---
+
+    Kabir’s teachings, devotion to the formless divine and divine forms,
+    Jivanji Maharaj and the Uda tradition, and the role of bhajan in community life.
+
+    [Read about Kabir and RamKabir](kabir-panth-and-ramkabir-parampara.md)
+
+</div>
+
 ## Modern traditions
 
 <div class="grid cards" markdown>

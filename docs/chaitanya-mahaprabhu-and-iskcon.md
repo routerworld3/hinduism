@@ -228,6 +228,7 @@ These are commitments for initiated practice, rather than requirements imposed o
 
 ## Related Reading
 
+* [Kabir Panth and the RamKabir Parampara of Jivanji Maharaj](kabir-panth-and-ramkabir-parampara.md)
 * [Adi Shankaracharya and Advaita Vedanta](adi-shankaracharya.md)
 * [Ramanujacharya](ramanujacharya.md)
 * [Madhvacharya and Dvaita Vedanta](madhavcharya.md)
